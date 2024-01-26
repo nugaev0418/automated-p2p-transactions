@@ -89,3 +89,5 @@ API dan foydalanish namunalar `index.php` faylida ham yozilgan.
 
 ## Eslatma!
 Dastur va dastur uchun qo'llanma **Sanjarbek Sobirjonov** (telegram @sobirjonovs) tomonidan yozildi. Agar dasturda yoki qo'llanmada qandaydir xatolik topsangiz, **pull request** yoki murojaat qilishingizdan mamnun bo'lamiz. 
+
+test
