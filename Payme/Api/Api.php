@@ -268,6 +268,16 @@ class Api extends BaseApi
     public function chequeVerify(array $sort = []): array
     {
         try {
+            $sort["browser"] = [
+                        "is_java_enabled" => false,
+                        "is_javascript_enabled" => true,
+                        "screen" => [
+                            "color_depth" => 24,
+                            "width" => 1013,
+                            "height" => 969
+                        ],
+                        "timezone_offset" => -300
+                    ];
             $this->login(["Device: $this->device"]);
             $this->post(self::API_CHEQUE_VERIFY_URL, $sort, ["API-SESSION: $this->api_session", "Device: $this->device"]);
 
