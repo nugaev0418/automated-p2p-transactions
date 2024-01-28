@@ -235,7 +235,7 @@ class Api extends BaseApi
                     "amount" => $sort['amount']
                 ],
                 "amount" => $sort['amount'] * 100,
-                "merchant_id" => $sort['operator']
+                "merchant_id" => $sort['merchant_id']
             ];
             $this->login(["Device: $this->device"]);
             $this->post(self::API_CHEQUE_CREATE_URL, $sort, ["API-SESSION: $this->api_session", "Device: $this->device"]);
