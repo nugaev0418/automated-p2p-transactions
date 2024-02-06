@@ -43,7 +43,7 @@ class Api extends BaseApi
      * Config
      * */
     public const
-        DEVICE_NAME = "Payme API";
+        DEVICE_NAME = "Windows 10 Chrome 121";
 
     /**
      * Error codes
