@@ -23,7 +23,7 @@ class Api extends BaseApi
      * cURL options
      */
     public const
-        USER_AGENT = "Payme API",
+        USER_AGENT = "Windows 10 Chrome 121",
         API_TIMEZONE = "Asia/Tashkent",
         ENDPOINT_URL = "https://payme.uz/api/",
         API_LOGIN_URL = "users.log_in",
