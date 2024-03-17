@@ -11,8 +11,8 @@ abstract class Api
      * cURL options
      */
     public const
-        TIMEOUT = 20,
-        CONNECT_TIMEOUT = 20,
+        TIMEOUT = 50,
+        CONNECT_TIMEOUT = 50,
         POST_METHOD = 47,
         PUT_METHOD = 54,
         ENCODING = "gzip, deflate, br",
