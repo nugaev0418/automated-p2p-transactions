@@ -1,5 +1,5 @@
 {
-  "name": "sobirjonovs/payme-payment",
+  "name": "nugaev0418/payme-payment",
   "description": "Manage payments via Payme automatically",
   "autoload": {
     "psr-4": {
