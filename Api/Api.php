@@ -44,7 +44,8 @@ abstract class Api
             CURLOPT_TIMEOUT => self::TIMEOUT,
             CURLOPT_CONNECTTIMEOUT => self::CONNECT_TIMEOUT,
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_USERAGENT => self::USER_AGENT
+            CURLOPT_USERAGENT => self::USER_AGENT,
+            CURLOPT_PROXY => 'http://sardor5083:813d30@85.202.194.139:10123'
         ]);
 
         $result = curl_exec($curl);
